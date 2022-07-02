@@ -17,6 +17,10 @@
 
 Repository containing the project developed during the Ignite track of React from [Rocketseat](https://www.rocketseat.com.br/).
 
+### Links
+
+- [Figma](https://www.figma.com/file/20EC75a6HX5KUPGrrZG7RL/ig.news-(Copy)?node-id=1%3A5)
+
 ## How to Run
 
 ### Prerequisites
