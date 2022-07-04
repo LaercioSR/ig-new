@@ -50,6 +50,7 @@ The following tools were used in building the project:
 
 - **[TypeScript](https://www.typescriptlang.org/)**
 - **[NextJs](https://nextjs.org/)**
+  - [NextAuth](https://next-auth.js.org/)
 - **[ReactJs](https://pt-br.reactjs.org/)**
 - **[Stripe](https://stripe.com/br)**
 - **[FaunaDB](https://fauna.com/)**
