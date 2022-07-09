@@ -1,4 +1,3 @@
-/* eslint-disable import/no-anonymous-default-export */
 import { NextApiRequest, NextApiResponse } from "next";
 import { getSession } from "next-auth/react";
 import { query as q } from "faunadb";
@@ -14,7 +13,10 @@ type User = {
   };
 };
 
-export default async (req: NextApiRequest, res: NextApiResponse) => {
+export default async function subscribe(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
   if (req.method === "POST") {
     const session = await getSession({ req });
 
@@ -56,4 +58,4 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     res.setHeader("Allow", "POST");
     res.status(405).end("Method not allowed");
   }
-};
+}
